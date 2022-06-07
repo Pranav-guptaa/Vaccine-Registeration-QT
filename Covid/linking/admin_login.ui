@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Admin_login</class>
+ <widget class="QDialog" name="Admin_login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1045</width>
+    <height>542</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <weight>75</weight>
+    <bold>true</bold>
+    <underline>true</underline>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Admin_login{
+	color: rgb(255, 255, 255);
+	
+
+border-image: url(:/new/prefix1/ORGBACK.jpg);
+
+}</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>180</y>
+     <width>311</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#groupBox{
+	background-color: transparent;	
+	border-radius: 20px;	
+}</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>260</y>
+      <width>130</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>6</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton{
+border: 1.5px solid rgb(35, 67, 103);
+border-radius: 40px;
+colo:rgb(78, 220, 230);
+padding-left:20px;
+padding-right:20px;
+background-color: rgb(25, 65, 117);
+}
+
+#pushButton:hover{
+border: 1px solid rgb(73, 115, 212);
+color:rgb(44, 190, 235);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>LET ME IN!!!</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="PASSWORD">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>190</y>
+      <width>270</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#PASSWORD{
+border: 1.5px solid rgb(35, 67, 103);
+border-radius: 40px;
+color:rgb(78, 220, 230);
+padding-left:40px;
+padding-right:20px;
+background-color: rgb(25, 65, 117);
+}
+#PASSWORD:hover{
+border: 1px solid rgb(73, 115, 212);
+color:rgb(44, 190, 235);
+}
+#PASSWORD:focus{
+border: 1.2px solid rgb(85, 255, 255);
+}
+</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Enter Your Password</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="USERNAME">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>270</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#USERNAME{
+border: 1.5px solid rgb(35, 67, 103);
+border-radius: 40px;
+color:rgb(78, 220, 230);
+padding-left:40px;
+padding-right:20px;
+background-color: rgb(25, 65, 117);
+}
+#USERNAME:hover{
+border: 1px solid rgb(73, 115, 212);
+}
+#USERNAME:focus{
+border: 1.2px solid rgb(85, 255, 255);
+}
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>Enter Your Username</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="ADHAAR">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>270</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#ADHAAR{
+border: 1.5px solid rgb(35, 67, 103);
+border-radius: 20px;
+color:rgb(78, 220, 230);
+padding-left:40px;
+padding-right:20px;
+background-color: rgb(25, 65, 117);
+}
+#ADHAAR:hover{
+border: 1px solid rgb(73, 115, 212);
+}
+
+#ADHAAR:focus{
+border: 1.2px solid rgb(85, 255, 255);
+}
+
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Enter  Adhaar Card </string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>90</y>
+     <width>441</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Swis721 BlkOul BT</family>
+     <pointsize>34</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#label{
+	color: rgb(255, 255, 255);
+}</string>
+   </property>
+   <property name="text">
+    <string>LOGIN HERE</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>490</y>
+     <width>431</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;
+background:transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>cor.png</file>
+        <file>img src.jpeg</file>
+        <file>user.png</file>
+        <file>down.png</file>
+        <file>right.png</file>
+        <file>admin.png</file>
+        <file>admin_back.jpg</file>
+        <file>back.jpeg</file>
+        <file>ORGBACK.jpg</file>
+        <file>back123.jpg</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>ORG1.png</file>
+        <file>down.png</file>
+        <file>vac4.jpg</file>
+    </qresource>
+</RCC>
